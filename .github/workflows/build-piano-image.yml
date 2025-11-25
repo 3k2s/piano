@@ -8,6 +8,8 @@ on:
       - 'index.js'
       - 'package.json'
       - 'index.html'
+      - 'favicon.png'
+      - 'static/**'
   pull_request:
     branches: [ dev ]
   workflow_dispatch:
